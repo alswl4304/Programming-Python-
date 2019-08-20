@@ -1,0 +1,2 @@
+minute =int(input())
+
