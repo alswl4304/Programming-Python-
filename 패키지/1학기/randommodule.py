@@ -7,6 +7,10 @@ print()
 print("시작값 2.5 이상 끝값 10.0 미만 실수 값")
 print("rando,.uniform(2.5,10.0) : ", random.uniform(2.5,10.0))
 print()
+print("100이상 000 이하 정수 값")
+print("random.randint(100,999) : " , random.randint(100,999))
+print()
+#random.randrange(100,999)    100이상999미만 정수random값
 print("0 이상 끝값 10 미만 정수 값")
 print("random.ramdrange(10) : ", random.randrange(10))
 print()
@@ -26,6 +30,6 @@ print("random.shuffle(l)")
 print("섞은 후 l = ",l)
 print()
 print("리스트에서 몇 개의 값을 중복하지 않고 3개 뽑기")
-sample = ["1번","2번","3번","4번","5번","6번","7번","8번","9번 "]
+sample = ["1번","2번","3번","4번","5번","6번","7번","8번","9번"]
 print("샘플대상 = ", sample)
 print("random.sample(sample,3) : ",random.sample(sample,3))
